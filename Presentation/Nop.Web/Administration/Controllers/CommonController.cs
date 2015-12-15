@@ -38,6 +38,7 @@ namespace Nop.Admin.Controllers
     public partial class CommonController : BaseAdminController
     {
         #region Fields
+        abstract;
 
         private readonly IPaymentService _paymentService;
         private readonly IShippingService _shippingService;
