@@ -1,4 +1,25 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.ServiceModel.Syndication;
+using System.Web.Mvc;
+using Nop.Core;
+using Nop.Core.Domain.Customers;
+using Nop.Core.Domain.Forums;
+using Nop.Core.Domain.Media;
+using Nop.Core.Html;
+using Nop.Services.Common;
+using Nop.Services.Customers;
+using Nop.Services.Directory;
+using Nop.Services.Forums;
+using Nop.Services.Helpers;
+using Nop.Services.Localization;
+using Nop.Services.Media;
+using Nop.Services.Seo;
+using Nop.Web.Framework;
+using Nop.Web.Framework.Security;
+using Nop.Web.Models.Boards;
+using Nop.Web.Models.Common;
 
 namespace Nop.Web.Controllers
 {
